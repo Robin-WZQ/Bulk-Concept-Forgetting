@@ -1,0 +1,26 @@
+{
+    "layers": [
+        1,2,3,4,5,6
+    ],
+    "fact_token": "subject_last",
+    "v_num_grad_steps": 200,
+    "v_lr": 5e-1,
+    "v_loss_layer": 11,
+    "v_weight_decay": 1e-2,
+    "v_prob_threshold":0.99,
+    "clamp_norm_factor": 3,
+    "kl_factor": 0,
+    "mom2_adjustment": true,
+    "mom2_update_weight": 1,
+    "context_template_length_params": [[5, 10], [10, 10]],
+    "rewrite_module_tmp": "text_model.encoder.layers.{}.mlp.fc2",
+    "layer_module_tmp": "text_model.encoder.layers.{}",
+    "mlp_module_tmp": "text_model.encoder.layers.{}.mlp",
+    "attn_module_tmp": "text_model.encoder.layers.{}.attn",
+    "ln_f_module": "text_model.final_layer_norm",
+    "lm_head_module": "text_projection",
+    "mom2_dataset": "wikitext",
+    "mom2_n_samples": 100000,
+    "mom2_dtype": "float32",
+    "stats_dir": "./src/data/stats/wikitext_stats/openai-clip"
+}
