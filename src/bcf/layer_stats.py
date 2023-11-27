@@ -31,7 +31,7 @@ def main():
     """
     import argparse
 
-    parser = argparse.ArgumentParser(description="ReFACT Statistics Collector")
+    parser = argparse.ArgumentParser(description="BCF Statistics Collector")
 
     def aa(*args, **kwargs):
         parser.add_argument(*args, **kwargs)
