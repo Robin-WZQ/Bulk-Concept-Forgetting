@@ -20,19 +20,19 @@ pip install -r requirement.txt
 - Forgetting Artistic Styles
 
 ```
-python --file 'data/art_forget/artist_list_forget_10.csv' --algorithm 'bcf' --concept_type 'artist_forget' --seed 42 --v_similarity_metric "cosine"
+python clip_edit.py --file 'data/art_forget/artist_list_forget_10.csv' --algorithm 'bcf' --concept_type 'artist_forget' --seed 42 --v_similarity_metric "cosine"
 ```
 
 - Forgetting Objects
 
 ```
-python --file 'data/object_forget/object_erase_10.csv' --algorithm 'bcf' --concept_type 'object_forget' --seed 42 --v_similarity_metric "cosine"
+python clip_edit.py --file 'data/object_forget/object_erase_10.csv' --algorithm 'bcf' --concept_type 'object_forget' --seed 42 --v_similarity_metric "cosine"
 ```
 
 - Forgetting NSFW
 
 ```
-python --file 'data/nsfw_forget/nsfw_list_forget_all.csv' --algorithm 'bcf' --concept_type 'NSFW' --seed 42 --v_similarity_metric "cosine"
+python clip_edit.py --file 'data/nsfw_forget/nsfw_list_forget_all.csv' --algorithm 'bcf' --concept_type 'NSFW' --seed 42 --v_similarity_metric "cosine"
 ```
 
 Forgetting results are stored at `images/results/bcf/<concept_type>/` .
