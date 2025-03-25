@@ -6,6 +6,8 @@
 
 **This project is not for scientific research purposes. JUST FOR FUN!!!**
 
+Inspried by MEMIT, we find that erasing concepts in text encoder is a much better way to achieve bulk concepts erasing.
+
 ## Installation
 ```
 conda create -n bcf python=3.10
