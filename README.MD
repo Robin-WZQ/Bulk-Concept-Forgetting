@@ -1,4 +1,4 @@
-# Forget Them All: Bulk Concepts Forgetting for Text-to-Image Diffusion Models
+# Bulk Concepts Forgetting for Text-to-Image Diffusion Models
 
 <img style="witdh: 100%;" src="images/first_pic.png">
 
