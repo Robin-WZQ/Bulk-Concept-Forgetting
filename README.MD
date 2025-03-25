@@ -2,10 +2,9 @@
 
 <img style="witdh: 100%;" src="images/first_pic.png">
 
-##  Abstract
-With the growing concerns that have been discussed about privacy infringement, offensive, and inappropriate content in text-to-image diffusion models, recent years have witnessed the promise of selectively forgetting concepts to moderate the issues. However, current methods are limited to the scale of the forgetting concepts, leaving a big gap in real-world utilization. In this work, we propose **B**ulk **C**oncepts **F**orgetting (**BCF**), a method for forgetting a bulk of concepts at once. We begin by employing causal tracing to analyze the key layers within the text encoder of the diffusion model, which are responsible for storing concepts. We then modify the weights of these key layers using a mass of concepts. The results demonstrate that our method, BCF, can effectively forget ten times more concepts compared to previous approaches, while still maintaining the original capability of text-to-image generation. Additionally, we showcase the versatility of BCF in erasing artistic styles, objects, and NSFW content. Together, BCF enhances the scalability and effectiveness of previous methods for forgetting a large number of concepts.   
+This is a project aiming to erase 10^3 concepts on T2I diffusion models while remaining its orginal performace, i.e., fidelity.
 
-<img style="witdh: 100%;" src="images/method.png">
+This project is not for scientific research purposes. JUST FOR FUN!!!
 
 ## Installation
 ```
