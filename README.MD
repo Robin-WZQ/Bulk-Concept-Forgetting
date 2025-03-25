@@ -2,9 +2,9 @@
 
 <img style="witdh: 100%;" src="images/first_pic.png">
 
-This is a project aiming to erase 10^3 concepts on T2I diffusion models while remaining its orginal performace, i.e., fidelity.
+> This is a project aiming to erase 10^3 concepts on T2I diffusion models while remaining its orginal performace, i.e., fidelity.
 
-This project is not for scientific research purposes. JUST FOR FUN!!!
+**This project is not for scientific research purposes. JUST FOR FUN!!!**
 
 ## Installation
 ```
